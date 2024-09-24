@@ -39,28 +39,18 @@
                     
                 }
             </style>
-            <div class="button-container">
+            <div id="EN-button" class="button-container">
                 <a href="/EN">
-                    <button class="btn btn-sm btn-secondary" 
-                        onclick="gtag('event', 'button_click', {
-                          'event_category': 'Language Change',
-                          'event_label': 'EN',
-                          'value': 1
-                        });">
+                    <button class="btn btn-sm btn-secondary" >
                         EN
                     </button>
                 </a>
                 <a href="/ES">
-                    <button class="btn btn-sm btn-primary" 
-                        onclick="gtag('event', 'button_click', {
-                          'event_category': 'Language Change',
-                          'event_label': 'ES',
-                          'value': 1
-                        });">
+                    <button id="ES-button" class="btn btn-sm btn-primary">
                         ES
                     </button>
                 </a>
-            </div>            
+            </div>  
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none"></span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/static/assets/img/profile.jpg" alt="..." /></span>
