@@ -23,6 +23,7 @@
         <link href="/static/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-icons@latest/simple-icons.css">
         <style>
+            
             #pdf {
                 margin-left: 10%;
                 margin-right: 10%;
@@ -41,6 +42,13 @@
 
             /* Media query para pantallas de 0 a 500px */
             @media (max-width: 500px) {
+                #route {
+                margin-left: 10%;
+                margin-right: 10%;
+                position: relative;
+                margin-top: 1.6em;
+                margin-bottom: -8%;
+            }
             #pdf {
                 min-width: 370px;
                 min-height: 600px;
@@ -53,6 +61,15 @@
 
             /* Media query para pantallas de 500px en adelante */
             @media (min-width: 501px) {
+                #route {
+                margin-left: 10%;
+                margin-right: 10%;
+                position: relative;
+                margin-top: 1.6em;
+                margin-bottom: -2%;
+                
+            }
+            
             #pdf {
                 min-height: 700px;
                 margin-left: 10%;
@@ -108,12 +125,17 @@
                 </ul>
             </div>
         </nav>
+        
+            <div id="route">
+                <h2 class="mb-5">Route to Process Coordinator</h2>
+            </div>
+        
             <div id="pdf">
                 <iframe loading="lazy" style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0"
                 src="https://www.canva.com/design/DAFmk-XDN3A/KweCyj-wynJ8uIneWsR8NQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
             </iframe>
-            </div>
-           <!-- Bootstrap core JS-->
+        </div>
+        <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
