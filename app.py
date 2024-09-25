@@ -18,6 +18,14 @@ def index_es():
 def index_en():
     return render_template('en-index.html')
 
+@app.route('/ES/route_to')
+def long_es():
+    return render_template('long.html')
+
+@app.route('/EN/route_to')
+def long_en():
+    return render_template('en_long.html')
+
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run(debug=True)
