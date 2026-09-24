@@ -21,10 +21,10 @@
   --accent-line: rgba(158, 227, 125, 0.25);
   --on-accent: #0c1a07;
 
-  /* Typography shared with mdnav-web: monospace body, Share Tech titles */
+  /* Typography: monospace body (shared with mdnav-web), Ubuntu titles */
   --font-sans: Consolas, "SFMono-Regular", Menlo, Monaco, monospace;
   --font-mono: Consolas, "SFMono-Regular", Menlo, Monaco, monospace;
-  --font-title: "Share Tech", system-ui, sans-serif;
+  --font-title: "Ubuntu", system-ui, sans-serif;
 
   --radius: 14px;
   --radius-sm: 8px;
@@ -68,10 +68,10 @@ h1, h2, h3, h4 {
   color: var(--text);
 }
 
-/* Share Tech ships a single weight; avoid synthetic bold on display titles */
+/* Display titles */
 h1, h2, .nav-brand, .hero-name {
   font-family: var(--font-title);
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.01em;
 }
 
