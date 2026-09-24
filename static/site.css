@@ -926,3 +926,8 @@ a:hover { color: var(--accent-strong); }
   .nav-roadto a { white-space: nowrap; }
   .nav-roadto.is-visible a { animation: roadto-pulse 2.4s ease-out 0.5s infinite; }
 }
+
+/* Jobint card spans the full row like the featured role; Navent cards sit side by side */
+@media (min-width: 768px) {
+  .exp-grid > article:first-child { grid-column: 1 / -1; }
+}
