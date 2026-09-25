@@ -71,72 +71,88 @@
                 <div class="container">
                     <div class="timeline-sort" role="group" aria-label="Sort the history">
                         <span class="timeline-sort-label">Sort:</span>
-                        <button type="button" class="sort-btn is-active" data-order="asc" aria-pressed="true"><i class="fas fa-arrow-down-1-9" aria-hidden="true"></i> Oldest first</button>
-                        <button type="button" class="sort-btn" data-order="desc" aria-pressed="false"><i class="fas fa-arrow-down-9-1" aria-hidden="true"></i> Newest first</button>
+                        <button type="button" class="sort-btn" data-order="asc" aria-pressed="false"><i class="fas fa-arrow-down-1-9" aria-hidden="true"></i> Oldest first</button>
+                        <button type="button" class="sort-btn is-active" data-order="desc" aria-pressed="true"><i class="fas fa-arrow-down-9-1" aria-hidden="true"></i> Newest first</button>
                     </div>
                     <ol class="timeline">
-                        <li class="timeline-item" data-year="2016">
-                            <div class="timeline-year">2016–2017</div>
+                        <li class="timeline-item is-current" data-year="2026">
+                            <div class="timeline-year">2026</div>
                             <div class="card timeline-card">
-                                <span class="badge">Billing User · Navent</span>
-                                <h2 class="timeline-title">SAP electronic invoicing for Mexico</h2>
-                                <p class="timeline-text">Implementation, testing and documentation of SAP electronic invoicing for the Mexico business units. SAP MM product master data maintenance.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2018">
-                            <div class="timeline-year">2018–2019</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Process Analyst · Navent</span>
-                                <h2 class="timeline-title">E-invoicing in Peru and SAP migrations</h2>
-                                <p class="timeline-text">SAP electronic invoicing for Peru. Migration to SAP of customers, orders and open items after the Tokko and Sumaprop acquisitions. Functional analysis of the sales order interface and a regional blocking scheme. Large-scale customer data analysis with SQL (deduplication, SAP vs. CRM reconciliation) ahead of Salesforce.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2020">
-                            <div class="timeline-year">2020–2021</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Process Analyst · Navent</span>
-                                <h2 class="timeline-title">Regional Salesforce implementation</h2>
-                                <p class="timeline-text">Led the regional Salesforce implementation: migration of customers, sales orders, products and prices. User training and evolutionary support. Unified salesperson data for commission schemes and tested SAP–Salesforce interfaces.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2022">
-                            <div class="timeline-year">2022</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Process Specialist · Jobint</span>
-                                <h2 class="timeline-title">Navent/Jobint separation</h2>
-                                <p class="timeline-text">Led the Navent/Jobint separation kick-off and the full data migration in Salesforce and SAP. Electronic invoicing for Jobint Panama. Regional sales dashboards and schemes in Salesforce.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2023">
-                            <div class="timeline-year">2023</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Process Specialist · Jobint</span>
-                                <h2 class="timeline-title">Pricing, products and P&amp;L</h2>
-                                <p class="timeline-text">Pricing and product management owner. Sales scheme adapted to accounting requirements for P&amp;L accuracy. Google Calendar integration in Salesforce for commercial performance KPIs.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2024">
-                            <div class="timeline-year">2024</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Process Coordinator · Jobint</span>
-                                <h2 class="timeline-title">Data integrations</h2>
-                                <p class="timeline-text">Salesforce → BigQuery integration for historical sales data. Netcore integration for customer journeys consuming Salesforce data in real time.</p>
+                                <div class="timeline-head">
+                                    <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
+                                    <h2 class="timeline-title">DWH ownership and AI applied to data</h2>
+                                </div>
+                                <p class="timeline-text">Sole owner of the DWH, with ETLs integrating 11 source systems. Regulatory reporting automation (AFIP). AI assistant (text-to-SQL with Gemini) over the DWH. Creator and administrator of the corporate intranet (Flask + Next.js), leading 2 developers. Server infrastructure with Linux, nginx, Docker and GitHub Actions.</p>
                             </div>
                         </li>
                         <li class="timeline-item" data-year="2025">
                             <div class="timeline-year">2025</div>
                             <div class="card timeline-card">
-                                <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
-                                <h2 class="timeline-title">Information gathering and automation</h2>
+                                <div class="timeline-head">
+                                    <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
+                                    <h2 class="timeline-title">Information gathering and automation</h2>
+                                </div>
                                 <p class="timeline-text">Gathered and consolidated information from the company's different areas and systems. Built automations that replaced manual tasks and, on that foundation, the data warehouse on PostgreSQL (AWS RDS) with Python ETLs, replacing Pentaho/MySQL. HubSpot and backoffice integrations. Power BI dashboards.</p>
                             </div>
                         </li>
-                        <li class="timeline-item is-current" data-year="2026">
-                            <div class="timeline-year">2026</div>
+                        <li class="timeline-item" data-year="2024">
+                            <div class="timeline-year">2024</div>
                             <div class="card timeline-card">
-                                <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
-                                <h2 class="timeline-title">DWH ownership and AI applied to data</h2>
-                                <p class="timeline-text">Sole owner of the DWH, with ETLs integrating 11 source systems. Regulatory reporting automation (AFIP). AI assistant (text-to-SQL with Gemini) over the DWH. Creator and administrator of the corporate intranet (Flask + Next.js), leading 2 developers. Server infrastructure with Linux, nginx, Docker and GitHub Actions.</p>
+                                <div class="timeline-head">
+                                    <span class="badge">Process Coordinator · Jobint</span>
+                                    <h2 class="timeline-title">Data integrations</h2>
+                                </div>
+                                <p class="timeline-text">Salesforce → BigQuery integration for historical sales data. Netcore integration for customer journeys consuming Salesforce data in real time.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2023">
+                            <div class="timeline-year">2023</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Process Specialist · Jobint</span>
+                                    <h2 class="timeline-title">Pricing, products and P&amp;L</h2>
+                                </div>
+                                <p class="timeline-text">Pricing and product management owner. Sales scheme adapted to accounting requirements for P&amp;L accuracy. Google Calendar integration in Salesforce for commercial performance KPIs.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2022">
+                            <div class="timeline-year">2022</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Process Specialist · Jobint</span>
+                                    <h2 class="timeline-title">Navent/Jobint separation</h2>
+                                </div>
+                                <p class="timeline-text">Led the Navent/Jobint separation kick-off and the full data migration in Salesforce and SAP. Electronic invoicing for Jobint Panama. Regional sales dashboards and schemes in Salesforce.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2020">
+                            <div class="timeline-year">2020–2021</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Process Analyst · Navent</span>
+                                    <h2 class="timeline-title">Regional Salesforce implementation</h2>
+                                </div>
+                                <p class="timeline-text">Led the regional Salesforce implementation: migration of customers, sales orders, products and prices. User training and evolutionary support. Unified salesperson data for commission schemes and tested SAP–Salesforce interfaces.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2018">
+                            <div class="timeline-year">2018–2019</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Process Analyst · Navent</span>
+                                    <h2 class="timeline-title">E-invoicing in Peru and SAP migrations</h2>
+                                </div>
+                                <p class="timeline-text">SAP electronic invoicing for Peru. Migration to SAP of customers, orders and open items after the Tokko and Sumaprop acquisitions. Functional analysis of the sales order interface and a regional blocking scheme. Large-scale customer data analysis with SQL (deduplication, SAP vs. CRM reconciliation) ahead of Salesforce.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2016">
+                            <div class="timeline-year">2016–2017</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Billing User · Navent</span>
+                                    <h2 class="timeline-title">SAP electronic invoicing for Mexico</h2>
+                                </div>
+                                <p class="timeline-text">Implementation, testing and documentation of SAP electronic invoicing for the Mexico business units. SAP MM product master data maintenance.</p>
                             </div>
                         </li>
                     </ol>

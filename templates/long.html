@@ -71,72 +71,88 @@
                 <div class="container">
                     <div class="timeline-sort" role="group" aria-label="Ordenar la historia">
                         <span class="timeline-sort-label">Ordenar:</span>
-                        <button type="button" class="sort-btn is-active" data-order="asc" aria-pressed="true"><i class="fas fa-arrow-down-1-9" aria-hidden="true"></i> Más antiguo primero</button>
-                        <button type="button" class="sort-btn" data-order="desc" aria-pressed="false"><i class="fas fa-arrow-down-9-1" aria-hidden="true"></i> Más reciente primero</button>
+                        <button type="button" class="sort-btn" data-order="asc" aria-pressed="false"><i class="fas fa-arrow-down-1-9" aria-hidden="true"></i> Más antiguo primero</button>
+                        <button type="button" class="sort-btn is-active" data-order="desc" aria-pressed="true"><i class="fas fa-arrow-down-9-1" aria-hidden="true"></i> Más reciente primero</button>
                     </div>
                     <ol class="timeline">
-                        <li class="timeline-item" data-year="2016">
-                            <div class="timeline-year">2016–2017</div>
+                        <li class="timeline-item is-current" data-year="2026">
+                            <div class="timeline-year">2026</div>
                             <div class="card timeline-card">
-                                <span class="badge">Usuario de facturación · Navent</span>
-                                <h2 class="timeline-title">Facturación electrónica en SAP para México</h2>
-                                <p class="timeline-text">Implementación, pruebas y documentación de la facturación electrónica en SAP para las unidades de negocio de México. Mantenimiento del maestro de productos en SAP MM.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2018">
-                            <div class="timeline-year">2018–2019</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Analista de Procesos · Navent</span>
-                                <h2 class="timeline-title">Facturación electrónica en Perú y migraciones a SAP</h2>
-                                <p class="timeline-text">Facturación electrónica en SAP para Perú. Migración a SAP de clientes, pedidos y partidas abiertas tras las adquisiciones de Tokko y Sumaprop. Análisis funcional de la interfaz de pedidos de venta y esquema regional de bloqueos. Análisis masivo de datos de clientes con SQL (deduplicación, conciliación SAP vs. CRM) como preparación para Salesforce.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2020">
-                            <div class="timeline-year">2020–2021</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Analista de Procesos · Navent</span>
-                                <h2 class="timeline-title">Implementación regional de Salesforce</h2>
-                                <p class="timeline-text">Liderazgo de la implementación regional de Salesforce: migración de clientes, pedidos de venta, productos y precios. Capacitación de usuarios y soporte evolutivo. Unificación de datos de vendedores para los esquemas de comisiones y pruebas de las interfaces SAP–Salesforce.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2022">
-                            <div class="timeline-year">2022</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Especialista de Procesos · Jobint</span>
-                                <h2 class="timeline-title">Separación Navent/Jobint</h2>
-                                <p class="timeline-text">Liderazgo del kick-off de la separación Navent/Jobint y de la migración completa de datos en Salesforce y SAP. Facturación electrónica para Jobint Panamá. Tableros y esquemas de ventas regionales en Salesforce.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2023">
-                            <div class="timeline-year">2023</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Especialista de Procesos · Jobint</span>
-                                <h2 class="timeline-title">Pricing, productos y P&amp;L</h2>
-                                <p class="timeline-text">Responsable de pricing y gestión de productos. Esquema de ventas adaptado a los requerimientos contables para un P&amp;L preciso. Integración de Google Calendar en Salesforce para KPIs de desempeño comercial.</p>
-                            </div>
-                        </li>
-                        <li class="timeline-item" data-year="2024">
-                            <div class="timeline-year">2024</div>
-                            <div class="card timeline-card">
-                                <span class="badge">Coordinador de Procesos · Jobint</span>
-                                <h2 class="timeline-title">Integraciones de datos</h2>
-                                <p class="timeline-text">Integración Salesforce → BigQuery para el histórico de ventas. Integración con Netcore para customer journeys que consumen datos de Salesforce en tiempo real.</p>
+                                <div class="timeline-head">
+                                    <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
+                                    <h2 class="timeline-title">Ownership del DWH e IA aplicada a datos</h2>
+                                </div>
+                                <p class="timeline-text">Único responsable del DWH, con ETLs que integran 11 sistemas origen. Automatización de reportes regulatorios (AFIP). Asistente de IA (text-to-SQL con Gemini) sobre el DWH. Creador y administrador de la intranet corporativa (Flask + Next.js), con 2 desarrolladores a cargo. Infraestructura de servidores con Linux, nginx, Docker y GitHub Actions.</p>
                             </div>
                         </li>
                         <li class="timeline-item" data-year="2025">
                             <div class="timeline-year">2025</div>
                             <div class="card timeline-card">
-                                <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
-                                <h2 class="timeline-title">Relevamiento de información y automatizaciones</h2>
+                                <div class="timeline-head">
+                                    <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
+                                    <h2 class="timeline-title">Relevamiento de información y automatizaciones</h2>
+                                </div>
                                 <p class="timeline-text">Relevamiento y recopilación de la información de las distintas áreas y sistemas de la compañía. Construcción de automatizaciones que reemplazaron tareas manuales y, sobre esa base, del data warehouse en PostgreSQL (AWS RDS) con ETLs en Python, en reemplazo de Pentaho/MySQL. Integraciones con HubSpot y backoffices. Tableros en Power BI.</p>
                             </div>
                         </li>
-                        <li class="timeline-item is-current" data-year="2026">
-                            <div class="timeline-year">2026</div>
+                        <li class="timeline-item" data-year="2024">
+                            <div class="timeline-year">2024</div>
                             <div class="card timeline-card">
-                                <span class="badge badge-accent">Data Engineer &amp; BI Specialist · Trasa</span>
-                                <h2 class="timeline-title">Ownership del DWH e IA aplicada a datos</h2>
-                                <p class="timeline-text">Único responsable del DWH, con ETLs que integran 11 sistemas origen. Automatización de reportes regulatorios (AFIP). Asistente de IA (text-to-SQL con Gemini) sobre el DWH. Creador y administrador de la intranet corporativa (Flask + Next.js), con 2 desarrolladores a cargo. Infraestructura de servidores con Linux, nginx, Docker y GitHub Actions.</p>
+                                <div class="timeline-head">
+                                    <span class="badge">Coordinador de Procesos · Jobint</span>
+                                    <h2 class="timeline-title">Integraciones de datos</h2>
+                                </div>
+                                <p class="timeline-text">Integración Salesforce → BigQuery para el histórico de ventas. Integración con Netcore para customer journeys que consumen datos de Salesforce en tiempo real.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2023">
+                            <div class="timeline-year">2023</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Especialista de Procesos · Jobint</span>
+                                    <h2 class="timeline-title">Pricing, productos y P&amp;L</h2>
+                                </div>
+                                <p class="timeline-text">Responsable de pricing y gestión de productos. Esquema de ventas adaptado a los requerimientos contables para un P&amp;L preciso. Integración de Google Calendar en Salesforce para KPIs de desempeño comercial.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2022">
+                            <div class="timeline-year">2022</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Especialista de Procesos · Jobint</span>
+                                    <h2 class="timeline-title">Separación Navent/Jobint</h2>
+                                </div>
+                                <p class="timeline-text">Liderazgo del kick-off de la separación Navent/Jobint y de la migración completa de datos en Salesforce y SAP. Facturación electrónica para Jobint Panamá. Tableros y esquemas de ventas regionales en Salesforce.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2020">
+                            <div class="timeline-year">2020–2021</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Analista de Procesos · Navent</span>
+                                    <h2 class="timeline-title">Implementación regional de Salesforce</h2>
+                                </div>
+                                <p class="timeline-text">Liderazgo de la implementación regional de Salesforce: migración de clientes, pedidos de venta, productos y precios. Capacitación de usuarios y soporte evolutivo. Unificación de datos de vendedores para los esquemas de comisiones y pruebas de las interfaces SAP–Salesforce.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2018">
+                            <div class="timeline-year">2018–2019</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Analista de Procesos · Navent</span>
+                                    <h2 class="timeline-title">Facturación electrónica en Perú y migraciones a SAP</h2>
+                                </div>
+                                <p class="timeline-text">Facturación electrónica en SAP para Perú. Migración a SAP de clientes, pedidos y partidas abiertas tras las adquisiciones de Tokko y Sumaprop. Análisis funcional de la interfaz de pedidos de venta y esquema regional de bloqueos. Análisis masivo de datos de clientes con SQL (deduplicación, conciliación SAP vs. CRM) como preparación para Salesforce.</p>
+                            </div>
+                        </li>
+                        <li class="timeline-item" data-year="2016">
+                            <div class="timeline-year">2016–2017</div>
+                            <div class="card timeline-card">
+                                <div class="timeline-head">
+                                    <span class="badge">Usuario de facturación · Navent</span>
+                                    <h2 class="timeline-title">Facturación electrónica en SAP para México</h2>
+                                </div>
+                                <p class="timeline-text">Implementación, pruebas y documentación de la facturación electrónica en SAP para las unidades de negocio de México. Mantenimiento del maestro de productos en SAP MM.</p>
                             </div>
                         </li>
                     </ol>
