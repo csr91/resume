@@ -480,14 +480,16 @@ a:hover { color: var(--accent-strong); }
   margin-bottom: 1rem;
 }
 
-.exp-featured .card-head {
-  position: sticky;
-  top: var(--nav-h);
-  z-index: 5;
-  background: var(--surface);
-  padding: 0.9rem 0 0.9rem;
-  margin: -0.9rem 0 0.9rem;
-  box-shadow: 0 1px 0 var(--border);
+@media (min-width: 768px) {
+  .exp-featured .card-head {
+    position: sticky;
+    top: var(--nav-h);
+    z-index: 5;
+    background: var(--surface);
+    padding: 0.9rem 0 0.9rem;
+    margin: -0.9rem 0 0.9rem;
+    box-shadow: 0 1px 0 var(--border);
+  }
 }
 
 .card-title {
@@ -740,13 +742,15 @@ a:hover { color: var(--accent-strong); }
   color: var(--accent);
 }
 
-.timeline-head {
-  position: sticky;
-  top: var(--nav-h);
-  z-index: 5;
-  background: var(--surface);
-  padding: 0.75rem 0 0.6rem;
-  margin: -0.75rem 0 0;
+@media (min-width: 768px) {
+  .timeline-head {
+    position: sticky;
+    top: var(--nav-h);
+    z-index: 5;
+    background: var(--surface);
+    padding: 0.75rem 0 0.6rem;
+    margin: -0.75rem 0 0;
+  }
 }
 .timeline-card .badge { margin-bottom: 0.85rem; white-space: normal; }
 .timeline-title { font-size: 1.15rem; margin-bottom: 0.6rem; }
